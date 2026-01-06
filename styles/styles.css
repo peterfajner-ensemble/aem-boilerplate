@@ -14,6 +14,7 @@
   /* colors */
   --background-color: white;
   --light-color: #f8f8f8;
+  --medium-color: rgb(239 243 244);
   --dark-color: #505050;
   --text-color: #131313;
   --link-color: #3b63fb;
@@ -254,4 +255,8 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.medium {
+  background-color: var(--medium-color);
 }
